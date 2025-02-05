@@ -1,0 +1,76 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('gaming.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(236, 15, 15, 0.521);
+    margin-bottom: 20px;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background for the form */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(253, 0, 0);
+    max-width: 400px;
+}
+
+input, button {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #ff0000;
+    font-weight: bold;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgb(240, 2, 2);
+}
+
+button {
+    background-color: #ec2626c4;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a0455c;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffeb3b;
+    background: rgba(238, 35, 62, 0.479);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
